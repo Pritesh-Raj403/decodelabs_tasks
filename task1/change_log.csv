@@ -1,0 +1,7 @@
+Change ID,Description,Impact,Status
+CR001,Imputed missing 'CouponCode' values with 'No Coupon',Preserved 309 records (no rows deleted),Resolved
+CR002,Checked and removed fully duplicated rows,Removed 0 duplicate row(s),Resolved
+CR003,Verified OrderID column for duplicate unique identifiers,Removed 0 duplicate OrderID record(s),Resolved
+CR004,Standardized 'Date' column to ISO 8601 format (YYYY-MM-DD),Reformatted 1200 record(s),Resolved
+CR005,Standardized 'UnitPrice' and 'TotalPrice' to 2 decimal precision,Reformatted 1200 record(s),Resolved
+CR006,Validated TotalPrice = Quantity x UnitPrice for all records,Found 0 mismatch(es) after rounding correction,Resolved
